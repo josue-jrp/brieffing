@@ -19,31 +19,28 @@ Público-alvo:
 	Proprietários de veículos que buscam uma compra fácil, rápida e segura.
 	Mecânicos que precisam de informações técnicas detalhadas.
 	Revendedores de autopeças.
-Entusiastas de automóveis que procuram especificações, manuais e dicas técnicas.
-Funcionalidades desejadas 
-Página inicial com ofertas e produtos em destaque.
-Catálogo de produtos organizado por categorias, com fotos e especificações técnicas.
-Busca de produtos de forma simples e eficiente.
-Páginas de conteúdo técnico (Guias de instalação, Manuais de manutenção)
-Dicas e informações sobre peças.
-Sistema de compras online seguro e intuitivo.
-Atendimento ao cliente de fácil acesso.
-Página "Sobre a Empresa" contando a história da empresa e seus 44 anos de tradição.
-Experiência de navegação responsiva, atendendo tanto usuários leigos quanto profissionais do setor.
-Informações técnicas detalhadas para transmitir confiança e autoridade no mercado.
-  
-
-
+	Entusiastas de automóveis que procuram especificações, manuais e dicas técnicas.
+	Funcionalidades desejadas 
+	Página inicial com ofertas e produtos em destaque.
+	Catálogo de produtos organizado por categorias, com fotos e especificações técnicas.
+	Busca de produtos de forma simples e eficiente.
+	Páginas de conteúdo técnico (Guias de instalação, Manuais de manutenção)
+	Dicas e informações sobre peças.
+	Sistema de compras online seguro e intuitivo.
+	Atendimento ao cliente de fácil acesso.
+	Página "Sobre a Empresa" contando a história da empresa e seus 44 anos de tradição.
+	Experiência de navegação responsiva, atendendo tanto usuários leigos quanto profissionais do setor.
+	Informações técnicas detalhadas para transmitir confiança e autoridade no mercado.
 
 Identidade visual: 
-Logomarca: Não possui logomarca (criar uma do zero).
-Paleta de cores:  Preto carbono ( #1C1C1C), Cinza aço ( #4F4F4F), Vermelho torque (#D62828), Branco gelo ( #F5F5F5) e Azul técnico (#1E56A0).
-Tipografia: Titillium Web (para logotipos, títulos de menús) e Roboto Condensed (para textos corridos e descrições de produtos).
-Tema:  Tema automotivo
-Objetivo visual: Site atraente 
+	Logomarca: Não possui logomarca (criar uma do zero).
+	Paleta de cores:  Preto carbono ( #1C1C1C), Cinza aço ( #4F4F4F), Vermelho torque (#D62828), Branco gelo ( #F5F5F5) e Azul técnico (#1E56A0).
+	Tipografia: Titillium Web (para logotipos, títulos de menús) e Roboto Condensed (para textos corridos e descrições de produtos).
+	Tema:  Tema automotivo
+	Objetivo visual: Site atraente 
 Prazo estimado:
-3 semanas: Apresentação do protótipo ao sr. Anastácio após assinatura do contrato.
-6 meses: prazo final para conclusão de todo o projeto web.
-20 de julho: data limite para postar o modelo de briefing no teams  
+	3 semanas: Apresentação do protótipo ao sr. Anastácio após assinatura do contrato.
+	6 meses: prazo final para conclusão de todo o projeto web.
+	20 de julho: data limite para postar o modelo de briefing no teams  
 Orçamento:
-Montante: 40.000
+	Montante: 40.000
