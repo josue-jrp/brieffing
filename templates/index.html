@@ -1,0 +1,1887 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AutoPeças Distribuidora | Peças Originais e Paralelas</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Ícones -->
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    >
+
+    <!-- Fonte -->
+    <link
+        rel="preconnect"
+        href="https://fonts.googleapis.com"
+    >
+
+    <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin
+    >
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700;800;900&family=Roboto+Mono:wght@400;500;600;700&family=Titillium+Web:wght@400;600;700&display=swap"
+        rel="stylesheet"
+    >
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+
+<body>
+
+    <!-- ================================================= -->
+    <!-- BARRA SUPERIOR -->
+    <!-- ================================================= -->
+
+    <div class="top-bar">
+
+        <div class="container top-content">
+
+            <div class="top-left">
+
+                <span>
+                    <i class="fa-solid fa-phone"></i>
+                    (11) 3344-5566
+                </span>
+
+                <span>
+                    <i class="fa-regular fa-clock"></i>
+                    Seg–Sex 08h–18h · Sáb 08h–13h
+                </span>
+
+            </div>
+
+            <div class="top-right">
+
+                <span>
+                    <i class="fa-solid fa-truck-fast"></i>
+                    Frete grátis acima de R$ 299
+                </span>
+
+                <span>
+                    <i class="fa-solid fa-location-dot"></i>
+                    São Paulo, SP
+                </span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- ================================================= -->
+    <!-- CABEÇALHO -->
+    <!-- ================================================= -->
+
+    <header class="header">
+
+        <div class="container header-content">
+
+            <!-- LOGO -->
+
+            <a href="#inicio" class="logo">
+
+                <div class="logo-icon">
+
+                    <span>AP</span>
+
+                    <i class="fa-solid fa-car-side"></i>
+
+                </div>
+
+                <div class="logo-text">
+
+                    <strong>
+                        GREASE<span>PEÇAS</span>
+                    </strong>
+
+                    <small>auto-peças</small>
+
+                </div>
+
+            </a>
+
+
+            <!-- BUSCA -->
+
+            <div class="search-box">
+
+                <input
+                    type="search"
+                    id="campoBusca"
+                    placeholder="Buscar peças, marca ou modelo..."
+                    autocomplete="off"
+                >
+
+                <button
+                    id="botaoBusca"
+                    aria-label="Pesquisar"
+                >
+
+                    <i class="fa-solid fa-magnifying-glass"></i>
+
+                </button>
+
+            </div>
+
+
+            <!-- AÇÕES -->
+
+            <div class="header-actions">
+
+                <button
+                    class="header-action"
+                    id="botaoConta"
+                >
+
+                    <i class="fa-regular fa-shield"></i>
+
+                    <span>MINHA CONTA</span>
+
+                </button>
+
+
+                <button
+                    class="header-action cart-button"
+                    id="botaoCarrinho"
+                >
+
+                    <div class="cart-icon">
+
+                        <i class="fa-solid fa-cart-shopping"></i>
+
+                        <b id="contadorCarrinho">0</b>
+
+                    </div>
+
+                    <span>CARRINHO</span>
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <!-- ================================================= -->
+    <!-- MENU -->
+    <!-- ================================================= -->
+
+    <nav class="navigation">
+
+        <div class="container navigation-content">
+
+            <button class="menu-mobile" id="menuMobile">
+
+                <i class="fa-solid fa-bars"></i>
+
+                MENU
+
+            </button>
+
+
+            <ul class="menu" id="menuPrincipal">
+
+                <li>
+
+                    <a href="#categorias">
+
+                        FREIOS
+
+                        <i class="fa-solid fa-chevron-down"></i>
+
+                    </a>
+
+                </li>
+
+
+                <li>
+
+                    <a href="#categorias">
+
+                        MOTOR
+
+                        <i class="fa-solid fa-chevron-down"></i>
+
+                    </a>
+
+                </li>
+
+
+                <li>
+
+                    <a href="#categorias">
+
+                        SUSPENSÃO
+
+                        <i class="fa-solid fa-chevron-down"></i>
+
+                    </a>
+
+                </li>
+
+
+                <li>
+
+                    <a href="#categorias">
+
+                        ELÉTRICA
+
+                        <i class="fa-solid fa-chevron-down"></i>
+
+                    </a>
+
+                </li>
+
+
+                <li>
+
+                    <a href="#categorias">
+
+                        ESCAPAMENTO
+
+                        <i class="fa-solid fa-chevron-down"></i>
+
+                    </a>
+
+                </li>
+
+
+                <li>
+
+                    <a
+                        href="#produtos"
+                        class="menu-offer"
+                    >
+
+                        OFERTAS
+
+                    </a>
+
+                </li>
+
+            </ul>
+
+
+            <a
+                href="#garagem"
+                class="compatibility-link"
+            >
+
+                <i class="fa-solid fa-arrows-rotate"></i>
+
+                VERIFICAR COMPATIBILIDADE
+
+            </a>
+
+        </div>
+
+    </nav>
+
+
+    <!-- ================================================= -->
+    <!-- HERO -->
+    <!-- ================================================= -->
+
+    <main>
+
+        <section
+            class="hero"
+            id="inicio"
+        >
+
+            <div class="hero-overlay"></div>
+
+            <div class="container hero-content">
+
+                <div class="hero-text">
+
+                    <span class="hero-tag">
+
+                        <i class="fa-solid fa-bolt"></i>
+
+                        PEÇAS ORIGINAIS E PARALELAS
+
+                    </span>
+
+
+                    <h1>
+
+                        PERFORMANCE
+
+                        <span>
+                            SEM COMPROMISSO.
+                        </span>
+
+                    </h1>
+
+
+                    <p>
+
+                        Mais de
+                        <strong>1.500 peças</strong>
+                        em estoque. Marcas líderes com garantia de
+                        procedência e entrega expressa para todo o Brasil.
+
+                    </p>
+
+
+                    <div class="hero-buttons">
+
+                        <a
+                            href="#produtos"
+                            class="button button-primary"
+                        >
+
+                            VER CATÁLOGO
+
+                            <i class="fa-solid fa-arrow-right"></i>
+
+                        </a>
+
+
+                        <a
+                            href="#garagem"
+                            class="button button-outline"
+                        >
+
+                            CONSULTAR PEÇA
+
+                        </a>
+
+                    </div>
+
+
+                    <div class="hero-stats">
+
+                        <div class="stat">
+
+                            <strong>15+</strong>
+
+                            <span>
+                                Anos no mercado
+                            </span>
+
+                        </div>
+
+
+                        <div class="stat">
+
+                            <strong>1.500+</strong>
+
+                            <span>
+                                Peças em estoque
+                            </span>
+
+                        </div>
+
+
+                        <div class="stat">
+
+                            <strong>98%</strong>
+
+                            <span>
+                                Clientes satisfeitos
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="hero-benefits">
+
+                    <article class="benefit-card">
+
+                        <div class="benefit-icon">
+
+                            <i class="fa-solid fa-truck-fast"></i>
+
+                        </div>
+
+                        <div>
+
+                            <strong>
+                                Frete Expresso
+                            </strong>
+
+                            <span>
+                                Entrega em 24–72h
+                            </span>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="benefit-card">
+
+                        <div class="benefit-icon">
+
+                            <i class="fa-regular fa-shield"></i>
+
+                        </div>
+
+                        <div>
+
+                            <strong>
+                                Garantia Total
+                            </strong>
+
+                            <span>
+                                6 a 12 meses
+                            </span>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="benefit-card">
+
+                        <div class="benefit-icon">
+
+                            <i class="fa-solid fa-screwdriver-wrench"></i>
+
+                        </div>
+
+                        <div>
+
+                            <strong>
+                                Suporte Técnico
+                            </strong>
+
+                            <span>
+                                Atendimento especializado
+                            </span>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================================================= -->
+        <!-- GARAGEM VIRTUAL -->
+        <!-- ================================================= -->
+
+        <section
+            class="garage section"
+            id="garagem"
+        >
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span>
+                        GARAGEM VIRTUAL
+                    </span>
+
+                    <h2>
+                        PEÇAS COMPATÍVEIS COM SEU VEÍCULO
+                    </h2>
+
+                    <p>
+                        Selecione seu carro e veja sugestões de peças
+                        e serviços sob medida.
+                    </p>
+
+                </div>
+
+
+                <div class="garage-grid">
+
+                    <!-- FORMULÁRIO -->
+
+                    <form
+                        class="vehicle-form"
+                        id="formVeiculo"
+                    >
+
+                        <h3>
+                            INFORME SEU VEÍCULO
+                        </h3>
+
+
+                        <div class="form-group">
+
+                            <label for="marca">
+
+                                MARCA
+
+                            </label>
+
+                            <select
+                                id="marca"
+                                required
+                            >
+
+                                <option value="">
+                                    Selecione a marca
+                                </option>
+
+                                <option value="Chevrolet">
+                                    Chevrolet
+                                </option>
+
+                                <option value="Fiat">
+                                    Fiat
+                                </option>
+
+                                <option value="Ford">
+                                    Ford
+                                </option>
+
+                                <option value="Honda">
+                                    Honda
+                                </option>
+
+                                <option value="Hyundai">
+                                    Hyundai
+                                </option>
+
+                                <option value="Peugeot">
+                                    Peugeot
+                                </option>
+
+                                <option value="Volkswagen">
+                                    Volkswagen
+                                </option>
+
+                            </select>
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="modelo">
+
+                                MODELO
+
+                            </label>
+
+                            <select
+                                id="modelo"
+                                required
+                            >
+
+                                <option value="">
+                                    Selecione o modelo
+                                </option>
+
+                            </select>
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="ano">
+
+                                ANO
+
+                            </label>
+
+                            <select
+                                id="ano"
+                                required
+                            >
+
+                                <option value="">
+                                    Selecione o ano
+                                </option>
+
+                            </select>
+
+                        </div>
+
+
+                        <button
+                            type="submit"
+                            class="button vehicle-button"
+                        >
+
+                            <i class="fa-solid fa-car-side"></i>
+
+                            BUSCAR COMPATÍVEIS
+
+                        </button>
+
+                    </form>
+
+
+                    <!-- RESULTADO -->
+
+                    <div
+                        class="vehicle-preview"
+                        id="resultadoVeiculo"
+                    >
+
+                        <div class="vehicle-placeholder">
+
+                            <div class="vehicle-image-icon">
+
+                                <i class="fa-solid fa-car-side"></i>
+
+                            </div>
+
+                            <h3>
+                                SEU VEÍCULO APARECE AQUI
+                            </h3>
+
+                            <p>
+                                Selecione marca, modelo e ano para ver
+                                peças compatíveis e alertas de manutenção
+                                personalizados.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================================================= -->
+        <!-- CATEGORIAS -->
+        <!-- ================================================= -->
+
+        <section
+            class="categories section"
+            id="categorias"
+        >
+
+            <div class="container">
+
+                <div class="section-header">
+
+                    <div>
+
+                        <span>
+                            NAVEGUE POR
+                        </span>
+
+                        <h2>
+                            CATEGORIAS
+                        </h2>
+
+                    </div>
+
+                    <a
+                        href="#produtos"
+                        class="view-all"
+                    >
+
+                        VER TUDO
+
+                        <i class="fa-solid fa-arrow-right"></i>
+
+                    </a>
+
+                </div>
+
+
+                <div class="category-grid">
+
+                    <a
+                        href="#produtos"
+                        class="category-card"
+                        data-category="Freios"
+                    >
+
+                        <img
+                            src="https://images.unsplash.com/photo-1487754180451-c456f719a1fc?auto=format&fit=crop&w=800&q=80"
+                            alt="Peças de freio"
+                        >
+
+                        <div class="category-overlay"></div>
+
+                        <div class="category-content">
+
+                            <h3>
+                                FREIOS
+                            </h3>
+
+                            <span>
+                                342 itens
+                            </span>
+
+                        </div>
+
+                    </a>
+
+
+                    <a
+                        href="#produtos"
+                        class="category-card"
+                        data-category="Motor"
+                    >
+
+                        <img
+                            src="https://images.unsplash.com/photo-1530046339160-ce3e530c7d2f?auto=format&fit=crop&w=800&q=80"
+                            alt="Peças de motor"
+                        >
+
+                        <div class="category-overlay"></div>
+
+                        <div class="category-content">
+
+                            <h3>
+                                MOTOR
+                            </h3>
+
+                            <span>
+                                518 itens
+                            </span>
+
+                        </div>
+
+                    </a>
+
+
+                    <a
+                        href="#produtos"
+                        class="category-card"
+                        data-category="Suspensão"
+                    >
+
+                        <img
+                            src="https://images.unsplash.com/photo-1517524008697-84bbe3c3fd98?auto=format&fit=crop&w=800&q=80"
+                            alt="Peças de suspensão"
+                        >
+
+                        <div class="category-overlay"></div>
+
+                        <div class="category-content">
+
+                            <h3>
+                                SUSPENSÃO
+                            </h3>
+
+                            <span>
+                                276 itens
+                            </span>
+
+                        </div>
+
+                    </a>
+
+
+                    <a
+                        href="#produtos"
+                        class="category-card"
+                        data-category="Elétrica"
+                    >
+
+                        <img
+                            src="https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?auto=format&fit=crop&w=800&q=80"
+                            alt="Peças elétricas"
+                        >
+
+                        <div class="category-overlay"></div>
+
+                        <div class="category-content">
+
+                            <h3>
+                                ELÉTRICA
+                            </h3>
+
+                            <span>
+                                189 itens
+                            </span>
+
+                        </div>
+
+                    </a>
+
+
+                    <a
+                        href="#produtos"
+                        class="category-card"
+                        data-category="Filtros"
+                    >
+
+                        <img
+                            src="https://images.unsplash.com/photo-1487754180451-c456f719a1fc?auto=format&fit=crop&w=800&q=80"
+                            alt="Filtros automotivos"
+                        >
+
+                        <div class="category-overlay"></div>
+
+                        <div class="category-content">
+
+                            <h3>
+                                FILTROS
+                            </h3>
+
+                            <span>
+                                143 itens
+                            </span>
+
+                        </div>
+
+                    </a>
+
+
+                    <a
+                        href="#produtos"
+                        class="category-card"
+                        data-category="Escapamento"
+                    >
+
+                        <img
+                            src="https://images.unsplash.com/photo-1530046339160-ce3e530c7d2f?auto=format&fit=crop&w=800&q=80"
+                            alt="Sistema de escapamento"
+                        >
+
+                        <div class="category-overlay"></div>
+
+                        <div class="category-content">
+
+                            <h3>
+                                ESCAPAMENTO
+                            </h3>
+
+                            <span>
+                                97 itens
+                            </span>
+
+                        </div>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================================================= -->
+        <!-- PRODUTOS -->
+        <!-- ================================================= -->
+
+        <section
+            class="products section"
+            id="produtos"
+        >
+
+            <div class="container">
+
+                <div class="section-header">
+
+                    <div>
+
+                        <span>
+                            MAIS VENDIDOS
+                        </span>
+
+                        <h2>
+                            PRODUTOS EM DESTAQUE
+                        </h2>
+
+                    </div>
+
+                    <a
+                        href="#catalogo"
+                        class="view-all"
+                    >
+
+                        VER TODOS
+
+                        <i class="fa-solid fa-arrow-right"></i>
+
+                    </a>
+
+                </div>
+
+
+                <div
+                    class="product-grid"
+                    id="listaProdutos"
+                >
+
+                    <!-- PRODUTO 1 -->
+
+                    <article
+                        class="product-card"
+                        data-name="Kit Freio ATE Sport"
+                        data-category="Freios"
+                    >
+
+                        <div class="product-image">
+
+                            <img
+                                src="https://images.unsplash.com/photo-1487754180451-c456f719a1fc?auto=format&fit=crop&w=900&q=80"
+                                alt="Kit Freio ATE Sport"
+                            >
+
+                            <span class="product-badge">
+                                OFERTA
+                            </span>
+
+                            <span class="discount">
+                                -19%
+                            </span>
+
+                            <small>
+                                FRE-ATE-001
+                            </small>
+
+                        </div>
+
+
+                        <div class="product-info">
+
+                            <span class="product-category">
+                                FREIOS
+                            </span>
+
+                            <h3>
+                                Kit Freio ATE Sport
+                            </h3>
+
+                            <div class="rating">
+
+                                <span>
+                                    ★★★★★
+                                </span>
+
+                                <small>
+                                    (127)
+                                </small>
+
+                            </div>
+
+                            <div class="price">
+
+                                <strong>
+                                    R$ 389,90
+                                </strong>
+
+                                <del>
+                                    R$ 479,90
+                                </del>
+
+                            </div>
+
+                            <p>
+                                ou 12x de R$ 32,49 sem juros
+                            </p>
+
+                            <button
+                                class="add-cart"
+                                data-product="Kit Freio ATE Sport"
+                            >
+
+                                <i class="fa-solid fa-cart-shopping"></i>
+
+                                ADICIONAR AO CARRINHO
+
+                            </button>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- PRODUTO 2 -->
+
+                    <article
+                        class="product-card"
+                        data-name="Vela de Ignição NGK Iridium"
+                        data-category="Motor"
+                    >
+
+                        <div class="product-image">
+
+                            <img
+                                src="https://images.unsplash.com/photo-1530046339160-ce3e530c7d2f?auto=format&fit=crop&w=900&q=80"
+                                alt="Vela de Ignição NGK Iridium"
+                            >
+
+                            <span class="product-badge blue">
+                                TOP VENDA
+                            </span>
+
+                            <small>
+                                MOT-NGK-087
+                            </small>
+
+                        </div>
+
+
+                        <div class="product-info">
+
+                            <span class="product-category">
+                                MOTOR
+                            </span>
+
+                            <h3>
+                                Vela de Ignição NGK Iridium
+                            </h3>
+
+                            <div class="rating">
+
+                                <span>
+                                    ★★★★★
+                                </span>
+
+                                <small>
+                                    (344)
+                                </small>
+
+                            </div>
+
+                            <div class="price">
+
+                                <strong>
+                                    R$ 89,90
+                                </strong>
+
+                            </div>
+
+                            <p>
+                                ou 12x de R$ 7,49 sem juros
+                            </p>
+
+                            <button
+                                class="add-cart"
+                                data-product="Vela de Ignição NGK Iridium"
+                            >
+
+                                <i class="fa-solid fa-cart-shopping"></i>
+
+                                ADICIONAR AO CARRINHO
+
+                            </button>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- PRODUTO 3 -->
+
+                    <article
+                        class="product-card"
+                        data-name="Amortecedor Monroe Adventure"
+                        data-category="Suspensão"
+                    >
+
+                        <div class="product-image">
+
+                            <img
+                                src="https://images.unsplash.com/photo-1517524008697-84bbe3c3fd98?auto=format&fit=crop&w=900&q=80"
+                                alt="Amortecedor Monroe Adventure"
+                            >
+
+                            <span class="product-badge">
+                                OFERTA
+                            </span>
+
+                            <span class="discount">
+                                -18%
+                            </span>
+
+                            <small>
+                                SUS-MON-032
+                            </small>
+
+                        </div>
+
+
+                        <div class="product-info">
+
+                            <span class="product-category">
+                                SUSPENSÃO
+                            </span>
+
+                            <h3>
+                                Amortecedor Monroe Adventure
+                            </h3>
+
+                            <div class="rating">
+
+                                <span>
+                                    ★★★★★
+                                </span>
+
+                                <small>
+                                    (89)
+                                </small>
+
+                            </div>
+
+                            <div class="price">
+
+                                <strong>
+                                    R$ 529,00
+                                </strong>
+
+                                <del>
+                                    R$ 649,00
+                                </del>
+
+                            </div>
+
+                            <p>
+                                ou 12x de R$ 44,08 sem juros
+                            </p>
+
+                            <button
+                                class="add-cart"
+                                data-product="Amortecedor Monroe Adventure"
+                            >
+
+                                <i class="fa-solid fa-cart-shopping"></i>
+
+                                ADICIONAR AO CARRINHO
+
+                            </button>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- PRODUTO 4 -->
+
+                    <article
+                        class="product-card"
+                        data-name="Bateria Heliar HTX 60Ah"
+                        data-category="Elétrica"
+                    >
+
+                        <div class="product-image">
+
+                            <img
+                                src="https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?auto=format&fit=crop&w=900&q=80"
+                                alt="Bateria Heliar HTX 60Ah"
+                            >
+
+                            <span class="product-badge green">
+                                NOVO
+                            </span>
+
+                            <small>
+                                ELE-HEL-060
+                            </small>
+
+                        </div>
+
+
+                        <div class="product-info">
+
+                            <span class="product-category">
+                                ELÉTRICA
+                            </span>
+
+                            <h3>
+                                Bateria Heliar HTX 60Ah
+                            </h3>
+
+                            <div class="rating">
+
+                                <span>
+                                    ★★★★★
+                                </span>
+
+                                <small>
+                                    (211)
+                                </small>
+
+                            </div>
+
+                            <div class="price">
+
+                                <strong>
+                                    R$ 479,90
+                                </strong>
+
+                            </div>
+
+                            <p>
+                                ou 12x de R$ 39,99 sem juros
+                            </p>
+
+                            <button
+                                class="add-cart"
+                                data-product="Bateria Heliar HTX 60Ah"
+                            >
+
+                                <i class="fa-solid fa-cart-shopping"></i>
+
+                                ADICIONAR AO CARRINHO
+
+                            </button>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- PRODUTO 5 -->
+
+                    <article
+                        class="product-card"
+                        data-name="Filtro de Ar K&N Performance"
+                        data-category="Filtros"
+                    >
+
+                        <div class="product-image">
+
+                            <img
+                                src="https://images.unsplash.com/photo-1530046339160-ce3e530c7d2f?auto=format&fit=crop&w=900&q=80"
+                                alt="Filtro de Ar K&N Performance"
+                            >
+
+                            <span class="product-badge green">
+                                NOVO
+                            </span>
+
+                            <span class="discount">
+                                -15%
+                            </span>
+
+                            <small>
+                                FIL-KN-2024
+                            </small>
+
+                        </div>
+
+
+                        <div class="product-info">
+
+                            <span class="product-category">
+                                FILTROS
+                            </span>
+
+                            <h3>
+                                Filtro de Ar K&N Performance
+                            </h3>
+
+                            <div class="rating">
+
+                                <span>
+                                    ★★★★★
+                                </span>
+
+                                <small>
+                                    (156)
+                                </small>
+
+                            </div>
+
+                            <div class="price">
+
+                                <strong>
+                                    R$ 299,90
+                                </strong>
+
+                                <del>
+                                    R$ 349,90
+                                </del>
+
+                            </div>
+
+                            <p>
+                                ou 12x de R$ 24,99 sem juros
+                            </p>
+
+                            <button
+                                class="add-cart"
+                                data-product="Filtro de Ar K&N Performance"
+                            >
+
+                                <i class="fa-solid fa-cart-shopping"></i>
+
+                                ADICIONAR AO CARRINHO
+
+                            </button>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- PRODUTO 6 -->
+
+                    <article
+                        class="product-card"
+                        data-name="Escapamento Inox Fabrini"
+                        data-category="Escapamento"
+                    >
+
+                        <div class="product-image">
+
+                            <img
+                                src="https://images.unsplash.com/photo-1517524008697-84bbe3c3fd98?auto=format&fit=crop&w=900&q=80"
+                                alt="Escapamento Inox Fabrini"
+                            >
+
+                            <span class="product-badge">
+                                OFERTA
+                            </span>
+
+                            <span class="discount">
+                                -20%
+                            </span>
+
+                            <small>
+                                ESC-FAB-INOX
+                            </small>
+
+                        </div>
+
+
+                        <div class="product-info">
+
+                            <span class="product-category">
+                                ESCAPAMENTO
+                            </span>
+
+                            <h3>
+                                Escapamento Inox Fabrini
+                            </h3>
+
+                            <div class="rating">
+
+                                <span>
+                                    ★★★★★
+                                </span>
+
+                                <small>
+                                    (72)
+                                </small>
+
+                            </div>
+
+                            <div class="price">
+
+                                <strong>
+                                    R$ 799,90
+                                </strong>
+
+                                <del>
+                                    R$ 999,90
+                                </del>
+
+                            </div>
+
+                            <p>
+                                ou 12x de R$ 66,66 sem juros
+                            </p>
+
+                            <button
+                                class="add-cart"
+                                data-product="Escapamento Inox Fabrini"
+                            >
+
+                                <i class="fa-solid fa-cart-shopping"></i>
+
+                                ADICIONAR AO CARRINHO
+
+                            </button>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================================================= -->
+        <!-- SOBRE A EMPRESA -->
+        <!-- ================================================= -->
+
+        <section class="about">
+
+            <div class="container about-grid">
+
+                <div class="about-image">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1565043666747-69f6646db940?auto=format&fit=crop&w=1200&q=80"
+                        alt="Centro de distribuição de autopeças"
+                    >
+
+                    <div class="experience-box">
+
+                        <strong>
+                            15+
+                        </strong>
+
+                        <span>
+                            ANOS DE EXPERIÊNCIA
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <div class="about-content">
+
+                    <span>
+                        CONHEÇA A
+                    </span>
+
+                    <h2>
+                        AUTOPEÇAS DISTRIBUIDORA
+                    </h2>
+
+                    <p>
+
+                        Fundada em 2009, a AutoPeças Distribuidora é
+                        referência em peças automotivas originais e de
+                        primeira linha. Atendemos mecânicos, oficinas e
+                        motoristas exigentes que não abrem mão de
+                        qualidade e procedência garantida.
+
+                    </p>
+
+
+                    <ul>
+
+                        <li>
+
+                            <i class="fa-regular fa-circle-check"></i>
+
+                            Peças com nota fiscal e garantia do fabricante
+
+                        </li>
+
+                        <li>
+
+                            <i class="fa-regular fa-circle-check"></i>
+
+                            Técnicos especializados para auxiliar sua compra
+
+                        </li>
+
+                        <li>
+
+                            <i class="fa-regular fa-circle-check"></i>
+
+                            Entrega expressa para todo o Brasil
+
+                        </li>
+
+                        <li>
+
+                            <i class="fa-regular fa-circle-check"></i>
+
+                            Parcelamento em até 12x sem juros
+
+                        </li>
+
+                    </ul>
+
+
+                    <a
+                        href="#contato"
+                        class="button specialist-button"
+                    >
+
+                        FALE COM UM ESPECIALISTA
+
+                        <i class="fa-solid fa-arrow-right"></i>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================================================= -->
+    <!-- RODAPÉ -->
+    <!-- ================================================= -->
+
+    <footer id="contato">
+
+        <div class="container footer-grid">
+
+            <div class="footer-brand">
+
+                <a
+                    href="#inicio"
+                    class="logo"
+                >
+
+                    <div class="logo-icon">
+
+                        <span>AP</span>
+
+                        <i class="fa-solid fa-car-side"></i>
+
+                    </div>
+
+                    <div class="logo-text">
+
+                        <strong>
+                            GREASE<span>PEÇAS</span>
+                        </strong>
+
+                        <small>
+                            auto-peças
+                        </small>
+
+                    </div>
+
+                </a>
+
+                <p>
+
+                    Sua distribuidora de auto peças originais e
+                    paralelas. Qualidade e procedência garantida
+                    desde 2009.
+
+                </p>
+
+                <div class="social-links">
+
+                    <a href="#" aria-label="Facebook">
+                        FB
+                    </a>
+
+                    <a href="#" aria-label="Instagram">
+                        IG
+                    </a>
+
+                    <a href="#" aria-label="YouTube">
+                        YT
+                    </a>
+
+                    <a href="#" aria-label="WhatsApp">
+                        WA
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div class="footer-column">
+
+                <h3>
+                    CATEGORIAS
+                </h3>
+
+                <a href="#categorias">
+                    Freios
+                </a>
+
+                <a href="#categorias">
+                    Motor
+                </a>
+
+                <a href="#categorias">
+                    Suspensão
+                </a>
+
+                <a href="#categorias">
+                    Elétrica
+                </a>
+
+                <a href="#categorias">
+                    Filtros
+                </a>
+
+                <a href="#categorias">
+                    Escapamento
+                </a>
+
+            </div>
+
+
+            <div class="footer-column">
+
+                <h3>
+                    ATENDIMENTO
+                </h3>
+
+                <a href="#">
+                    Central de Ajuda
+                </a>
+
+                <a href="#">
+                    Rastrear Pedido
+                </a>
+
+                <a href="#">
+                    Política de Troca
+                </a>
+
+                <a href="#">
+                    Garantia
+                </a>
+
+                <a href="#contato">
+                    Fale Conosco
+                </a>
+
+            </div>
+
+
+            <div class="footer-contact">
+
+                <h3>
+                    CONTATO
+                </h3>
+
+                <p>
+
+                    <i class="fa-solid fa-location-dot"></i>
+
+                    Av. das Indústrias, 4210 – Passo Fundo, RS
+
+                </p>
+
+                <p>
+
+                    <i class="fa-solid fa-phone"></i>
+
+                    (47) 99769-2120
+
+                </p>
+
+                <p>
+
+                    <i class="fa-regular fa-clock"></i>
+
+                    Seg–Sex 08h–18h · Sáb 08h–13h
+
+                </p>
+
+
+                <form
+                    class="newsletter"
+                    id="formNewsletter"
+                >
+
+                    <label for="email">
+
+                        NEWSLETTER
+
+                    </label>
+
+                    <div>
+
+                        <input
+                            type="email"
+                            id="email"
+                            placeholder="seu@email.com"
+                            required
+                        >
+
+                        <button
+                            type="submit"
+                            aria-label="Enviar"
+                        >
+
+                            <i class="fa-solid fa-arrow-right"></i>
+
+                        </button>
+
+                    </div>
+
+                </form>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <div class="container">
+
+                <span>
+
+                    © 2026 AUTOPEÇAS DISTRIBUIDORA ·
+                    TODOS OS DIREITOS RESERVADOS ·
+                    LOJA DE AUTO PEÇAS
+
+                </span>
+
+                <span>
+
+                    CNPJ 00.000.000/0001-00 ·
+                    SÃO PAULO, SP
+
+                </span>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <!-- ================================================= -->
+    <!-- CARRINHO LATERAL -->
+    <!-- ================================================= -->
+
+    <aside
+        class="cart-panel"
+        id="painelCarrinho"
+    >
+
+        <div class="cart-header">
+
+            <h2>
+
+                <i class="fa-solid fa-cart-shopping"></i>
+
+                MEU CARRINHO
+
+            </h2>
+
+            <button
+                id="fecharCarrinho"
+                aria-label="Fechar carrinho"
+            >
+
+                <i class="fa-solid fa-xmark"></i>
+
+            </button>
+
+        </div>
+
+
+        <div
+            class="cart-items"
+            id="itensCarrinho"
+        >
+
+            <div class="empty-cart">
+
+                <i class="fa-solid fa-cart-shopping"></i>
+
+                <h3>
+                    Seu carrinho está vazio
+                </h3>
+
+                <p>
+                    Adicione produtos para continuar.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div class="cart-footer">
+
+            <div>
+
+                <span>
+                    TOTAL
+                </span>
+
+                <strong id="totalCarrinho">
+                    R$ 0,00
+                </strong>
+
+            </div>
+
+            <button
+                id="finalizarCompra"
+            >
+
+                FINALIZAR COMPRA
+
+            </button>
+
+        </div>
+
+    </aside>
+
+
+    <!-- FUNDO DO CARRINHO -->
+
+    <div
+        class="cart-backdrop"
+        id="fundoCarrinho"
+    ></div>
+
+
+    <!-- ================================================= -->
+    <!-- BOTÃO WHATSAPP -->
+    <!-- ================================================= -->
+
+    <a
+        class="whatsapp-button"
+        href="https://wa.me/5547997692120"
+        target="_blank"
+        aria-label="Falar pelo WhatsApp"
+    >
+
+        <i class="fa-brands fa-whatsapp"></i>
+
+        <span>
+            Fale conosco
+        </span>
+
+    </a>
+
+
+    <!-- ================================================= -->
+    <!-- NOTIFICAÇÃO -->
+    <!-- ================================================= -->
+
+    <div
+        class="notification"
+        id="notificacao"
+    >
+
+        <i class="fa-solid fa-circle-check"></i>
+
+        <span id="mensagemNotificacao">
+
+            Produto adicionado ao carrinho!
+
+        </span>
+
+    </div>
+
+
+    <!-- JAVASCRIPT -->
+
+    <script src="script.js"></script>
+
+</body>
+</html>

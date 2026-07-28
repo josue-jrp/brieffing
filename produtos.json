@@ -1,0 +1,662 @@
+[
+  {
+    "id": 1,
+    "nome": "Pastilha de Freio",
+    "marca": "Bosch",
+    "categoria": "Freios",
+    "preco": 73.4,
+    "descricao": "Pastilha de Freio de alta qualidade para reposição automotiva.",
+    "imagem": "https://exemplo.com/imagens/produto_1.jpg",
+    "estoque": 11,
+    "compatibilidade": [
+      "Volkswagen Gol G6 2013-2016",
+      "Chevrolet Onix 2015-2019"
+    ],
+    "codigo_peca": "SKU-1001",
+    "especificacoes_tecnicas": {
+      "material": "Aço e componentes de alta resistência",
+      "peso": "1.5 kg",
+      "dimensoes": "30 x 20 x 10 cm"
+    },
+    "garantia": "12 meses",
+    "avaliacao": 4.1
+  },
+  {
+    "id": 2,
+    "nome": "Disco de Freio",
+    "marca": "Cofap",
+    "categoria": "Freios",
+    "preco": 96.9,
+    "descricao": "Disco de Freio de alta qualidade para reposição automotiva.",
+    "imagem": "https://exemplo.com/imagens/produto_2.jpg",
+    "estoque": 12,
+    "compatibilidade": [
+      "Fiat Uno 2012-2020",
+      "Hyundai HB20 2014-2020"
+    ],
+    "codigo_peca": "SKU-1002",
+    "especificacoes_tecnicas": {
+      "material": "Aço e componentes de alta resistência",
+      "peso": "1.5 kg",
+      "dimensoes": "30 x 20 x 10 cm"
+    },
+    "garantia": "12 meses",
+    "avaliacao": 4.2
+  },
+  {
+    "id": 3,
+    "nome": "Amortecedor",
+    "marca": "Nakata",
+    "categoria": "Suspensao",
+    "preco": 120.4,
+    "descricao": "Amortecedor de alta qualidade para reposição automotiva.",
+    "imagem": "https://exemplo.com/imagens/produto_3.jpg",
+    "estoque": 13,
+    "compatibilidade": [
+      "Volkswagen Gol G6 2013-2016",
+      "Chevrolet Onix 2015-2019"
+    ],
+    "codigo_peca": "SKU-1003",
+    "especificacoes_tecnicas": {
+      "material": "Aço e componentes de alta resistência",
+      "peso": "1.5 kg",
+      "dimensoes": "30 x 20 x 10 cm"
+    },
+    "garantia": "12 meses",
+    "avaliacao": 4.3
+  },
+  {
+    "id": 4,
+    "nome": "Mola Helicoidal",
+    "marca": "Mahle",
+    "categoria": "Suspensao",
+    "preco": 143.9,
+    "descricao": "Mola Helicoidal de alta qualidade para reposição automotiva.",
+    "imagem": "https://exemplo.com/imagens/produto_4.jpg",
+    "estoque": 14,
+    "compatibilidade": [
+      "Fiat Uno 2012-2020",
+      "Hyundai HB20 2014-2020"
+    ],
+    "codigo_peca": "SKU-1004",
+    "especificacoes_tecnicas": {
+      "material": "Aço e componentes de alta resistência",
+      "peso": "1.5 kg",
+      "dimensoes": "30 x 20 x 10 cm"
+    },
+    "garantia": "12 meses",
+    "avaliacao": 4.4
+  },
+  {
+    "id": 5,
+    "nome": "Filtro de Óleo",
+    "marca": "Mann",
+    "categoria": "Filtros",
+    "preco": 167.4,
+    "descricao": "Filtro de Óleo de alta qualidade para reposição automotiva.",
+    "imagem": "https://exemplo.com/imagens/produto_5.jpg",
+    "estoque": 15,
+    "compatibilidade": [
+      "Volkswagen Gol G6 2013-2016",
+      "Chevrolet Onix 2015-2019"
+    ],
+    "codigo_peca": "SKU-1005",
+    "especificacoes_tecnicas": {
+      "material": "Aço e componentes de alta resistência",
+      "peso": "1.5 kg",
+      "dimensoes": "30 x 20 x 10 cm"
+    },
+    "garantia": "12 meses",
+    "avaliacao": 4.5
+  },
+  {
+    "id": 6,
+    "nome": "Filtro de Ar",
+    "marca": "NGK",
+    "categoria": "Filtros",
+    "preco": 190.9,
+    "descricao": "Filtro de Ar de alta qualidade para reposição automotiva.",
+    "imagem": "https://exemplo.com/imagens/produto_6.jpg",
+    "estoque": 16,
+    "compatibilidade": [
+      "Fiat Uno 2012-2020",
+      "Hyundai HB20 2014-2020"
+    ],
+    "codigo_peca": "SKU-1006",
+    "especificacoes_tecnicas": {
+      "material": "Aço e componentes de alta resistência",
+      "peso": "1.5 kg",
+      "dimensoes": "30 x 20 x 10 cm"
+    },
+    "garantia": "12 meses",
+    "avaliacao": 4.6
+  },
+  {
+    "id": 7,
+    "nome": "Filtro de Combustível",
+    "marca": "SKF",
+    "categoria": "Filtros",
+    "preco": 214.4,
+    "descricao": "Filtro de Combustível de alta qualidade para reposição automotiva.",
+    "imagem": "https://exemplo.com/imagens/produto_7.jpg",
+    "estoque": 17,
+    "compatibilidade": [
+      "Volkswagen Gol G6 2013-2016",
+      "Chevrolet Onix 2015-2019"
+    ],
+    "codigo_peca": "SKU-1007",
+    "especificacoes_tecnicas": {
+      "material": "Aço e componentes de alta resistência",
+      "peso": "1.5 kg",
+      "dimensoes": "30 x 20 x 10 cm"
+    },
+    "garantia": "12 meses",
+    "avaliacao": 4.7
+  },
+  {
+    "id": 8,
+    "nome": "Vela de Ignição",
+    "marca": "Valeo",
+    "categoria": "Ignicao",
+    "preco": 237.9,
+    "descricao": "Vela de Ignição de alta qualidade para reposição automotiva.",
+    "imagem": "https://exemplo.com/imagens/produto_8.jpg",
+    "estoque": 18,
+    "compatibilidade": [
+      "Fiat Uno 2012-2020",
+      "Hyundai HB20 2014-2020"
+    ],
+    "codigo_peca": "SKU-1008",
+    "especificacoes_tecnicas": {
+      "material": "Aço e componentes de alta resistência",
+      "peso": "1.5 kg",
+      "dimensoes": "30 x 20 x 10 cm"
+    },
+    "garantia": "12 meses",
+    "avaliacao": 4.8
+  },
+  {
+    "id": 9,
+    "nome": "Bobina de Ignição",
+    "marca": "Monroe",
+    "categoria": "Ignicao",
+    "preco": 261.4,
+    "descricao": "Bobina de Ignição de alta qualidade para reposição automotiva.",
+    "imagem": "https://exemplo.com/imagens/produto_9.jpg",
+    "estoque": 19,
+    "compatibilidade": [
+      "Volkswagen Gol G6 2013-2016",
+      "Chevrolet Onix 2015-2019"
+    ],
+    "codigo_peca": "SKU-1009",
+    "especificacoes_tecnicas": {
+      "material": "Aço e componentes de alta resistência",
+      "peso": "1.5 kg",
+      "dimensoes": "30 x 20 x 10 cm"
+    },
+    "garantia": "12 meses",
+    "avaliacao": 4.9
+  },
+  {
+    "id": 10,
+    "nome": "Bateria 60Ah",
+    "marca": "TRW",
+    "categoria": "Eletrica",
+    "preco": 284.9,
+    "descricao": "Bateria 60Ah de alta qualidade para reposição automotiva.",
+    "imagem": "https://exemplo.com/imagens/produto_10.jpg",
+    "estoque": 20,
+    "compatibilidade": [
+      "Fiat Uno 2012-2020",
+      "Hyundai HB20 2014-2020"
+    ],
+    "codigo_peca": "SKU-1010",
+    "especificacoes_tecnicas": {
+      "material": "Aço e componentes de alta resistência",
+      "peso": "1.5 kg",
+      "dimensoes": "30 x 20 x 10 cm"
+    },
+    "garantia": "12 meses",
+    "avaliacao": 4.0
+  },
+  {
+    "id": 11,
+    "nome": "Correia Dentada",
+    "marca": "Bosch",
+    "categoria": "Motor",
+    "preco": 308.4,
+    "descricao": "Correia Dentada de alta qualidade para reposição automotiva.",
+    "imagem": "https://exemplo.com/imagens/produto_11.jpg",
+    "estoque": 21,
+    "compatibilidade": [
+      "Volkswagen Gol G6 2013-2016",
+      "Chevrolet Onix 2015-2019"
+    ],
+    "codigo_peca": "SKU-1011",
+    "especificacoes_tecnicas": {
+      "material": "Aço e componentes de alta resistência",
+      "peso": "1.5 kg",
+      "dimensoes": "30 x 20 x 10 cm"
+    },
+    "garantia": "12 meses",
+    "avaliacao": 4.1
+  },
+  {
+    "id": 12,
+    "nome": "Kit Embreagem",
+    "marca": "Cofap",
+    "categoria": "Transmissao",
+    "preco": 331.9,
+    "descricao": "Kit Embreagem de alta qualidade para reposição automotiva.",
+    "imagem": "https://exemplo.com/imagens/produto_12.jpg",
+    "estoque": 22,
+    "compatibilidade": [
+      "Fiat Uno 2012-2020",
+      "Hyundai HB20 2014-2020"
+    ],
+    "codigo_peca": "SKU-1012",
+    "especificacoes_tecnicas": {
+      "material": "Aço e componentes de alta resistência",
+      "peso": "1.5 kg",
+      "dimensoes": "30 x 20 x 10 cm"
+    },
+    "garantia": "12 meses",
+    "avaliacao": 4.2
+  },
+  {
+    "id": 13,
+    "nome": "Bomba d'Água",
+    "marca": "Nakata",
+    "categoria": "Arrefecimento",
+    "preco": 355.4,
+    "descricao": "Bomba d'Água de alta qualidade para reposição automotiva.",
+    "imagem": "https://exemplo.com/imagens/produto_13.jpg",
+    "estoque": 23,
+    "compatibilidade": [
+      "Volkswagen Gol G6 2013-2016",
+      "Chevrolet Onix 2015-2019"
+    ],
+    "codigo_peca": "SKU-1013",
+    "especificacoes_tecnicas": {
+      "material": "Aço e componentes de alta resistência",
+      "peso": "1.5 kg",
+      "dimensoes": "30 x 20 x 10 cm"
+    },
+    "garantia": "12 meses",
+    "avaliacao": 4.3
+  },
+  {
+    "id": 14,
+    "nome": "Radiador",
+    "marca": "Mahle",
+    "categoria": "Arrefecimento",
+    "preco": 378.9,
+    "descricao": "Radiador de alta qualidade para reposição automotiva.",
+    "imagem": "https://exemplo.com/imagens/produto_14.jpg",
+    "estoque": 24,
+    "compatibilidade": [
+      "Fiat Uno 2012-2020",
+      "Hyundai HB20 2014-2020"
+    ],
+    "codigo_peca": "SKU-1014",
+    "especificacoes_tecnicas": {
+      "material": "Aço e componentes de alta resistência",
+      "peso": "1.5 kg",
+      "dimensoes": "30 x 20 x 10 cm"
+    },
+    "garantia": "12 meses",
+    "avaliacao": 4.4
+  },
+  {
+    "id": 15,
+    "nome": "Alternador",
+    "marca": "Mann",
+    "categoria": "Eletrica",
+    "preco": 402.4,
+    "descricao": "Alternador de alta qualidade para reposição automotiva.",
+    "imagem": "https://exemplo.com/imagens/produto_15.jpg",
+    "estoque": 25,
+    "compatibilidade": [
+      "Volkswagen Gol G6 2013-2016",
+      "Chevrolet Onix 2015-2019"
+    ],
+    "codigo_peca": "SKU-1015",
+    "especificacoes_tecnicas": {
+      "material": "Aço e componentes de alta resistência",
+      "peso": "1.5 kg",
+      "dimensoes": "30 x 20 x 10 cm"
+    },
+    "garantia": "12 meses",
+    "avaliacao": 4.5
+  },
+  {
+    "id": 16,
+    "nome": "Motor de Partida",
+    "marca": "NGK",
+    "categoria": "Eletrica",
+    "preco": 425.9,
+    "descricao": "Motor de Partida de alta qualidade para reposição automotiva.",
+    "imagem": "https://exemplo.com/imagens/produto_16.jpg",
+    "estoque": 26,
+    "compatibilidade": [
+      "Fiat Uno 2012-2020",
+      "Hyundai HB20 2014-2020"
+    ],
+    "codigo_peca": "SKU-1016",
+    "especificacoes_tecnicas": {
+      "material": "Aço e componentes de alta resistência",
+      "peso": "1.5 kg",
+      "dimensoes": "30 x 20 x 10 cm"
+    },
+    "garantia": "12 meses",
+    "avaliacao": 4.6
+  },
+  {
+    "id": 17,
+    "nome": "Rolamento de Roda",
+    "marca": "SKF",
+    "categoria": "Rolamentos",
+    "preco": 449.4,
+    "descricao": "Rolamento de Roda de alta qualidade para reposição automotiva.",
+    "imagem": "https://exemplo.com/imagens/produto_17.jpg",
+    "estoque": 27,
+    "compatibilidade": [
+      "Volkswagen Gol G6 2013-2016",
+      "Chevrolet Onix 2015-2019"
+    ],
+    "codigo_peca": "SKU-1017",
+    "especificacoes_tecnicas": {
+      "material": "Aço e componentes de alta resistência",
+      "peso": "1.5 kg",
+      "dimensoes": "30 x 20 x 10 cm"
+    },
+    "garantia": "12 meses",
+    "avaliacao": 4.7
+  },
+  {
+    "id": 18,
+    "nome": "Cubo de Roda",
+    "marca": "Valeo",
+    "categoria": "Rolamentos",
+    "preco": 472.9,
+    "descricao": "Cubo de Roda de alta qualidade para reposição automotiva.",
+    "imagem": "https://exemplo.com/imagens/produto_18.jpg",
+    "estoque": 28,
+    "compatibilidade": [
+      "Fiat Uno 2012-2020",
+      "Hyundai HB20 2014-2020"
+    ],
+    "codigo_peca": "SKU-1018",
+    "especificacoes_tecnicas": {
+      "material": "Aço e componentes de alta resistência",
+      "peso": "1.5 kg",
+      "dimensoes": "30 x 20 x 10 cm"
+    },
+    "garantia": "12 meses",
+    "avaliacao": 4.8
+  },
+  {
+    "id": 19,
+    "nome": "Junta do Cabeçote",
+    "marca": "Monroe",
+    "categoria": "Motor",
+    "preco": 496.4,
+    "descricao": "Junta do Cabeçote de alta qualidade para reposição automotiva.",
+    "imagem": "https://exemplo.com/imagens/produto_19.jpg",
+    "estoque": 29,
+    "compatibilidade": [
+      "Volkswagen Gol G6 2013-2016",
+      "Chevrolet Onix 2015-2019"
+    ],
+    "codigo_peca": "SKU-1019",
+    "especificacoes_tecnicas": {
+      "material": "Aço e componentes de alta resistência",
+      "peso": "1.5 kg",
+      "dimensoes": "30 x 20 x 10 cm"
+    },
+    "garantia": "12 meses",
+    "avaliacao": 4.9
+  },
+  {
+    "id": 20,
+    "nome": "Coxim do Motor",
+    "marca": "TRW",
+    "categoria": "Motor",
+    "preco": 519.9,
+    "descricao": "Coxim do Motor de alta qualidade para reposição automotiva.",
+    "imagem": "https://exemplo.com/imagens/produto_20.jpg",
+    "estoque": 30,
+    "compatibilidade": [
+      "Fiat Uno 2012-2020",
+      "Hyundai HB20 2014-2020"
+    ],
+    "codigo_peca": "SKU-1020",
+    "especificacoes_tecnicas": {
+      "material": "Aço e componentes de alta resistência",
+      "peso": "1.5 kg",
+      "dimensoes": "30 x 20 x 10 cm"
+    },
+    "garantia": "12 meses",
+    "avaliacao": 4.0
+  },
+  {
+    "id": 21,
+    "nome": "Bandeja Suspensão",
+    "marca": "Bosch",
+    "categoria": "Suspensao",
+    "preco": 543.4,
+    "descricao": "Bandeja Suspensão de alta qualidade para reposição automotiva.",
+    "imagem": "https://exemplo.com/imagens/produto_21.jpg",
+    "estoque": 31,
+    "compatibilidade": [
+      "Volkswagen Gol G6 2013-2016",
+      "Chevrolet Onix 2015-2019"
+    ],
+    "codigo_peca": "SKU-1021",
+    "especificacoes_tecnicas": {
+      "material": "Aço e componentes de alta resistência",
+      "peso": "1.5 kg",
+      "dimensoes": "30 x 20 x 10 cm"
+    },
+    "garantia": "12 meses",
+    "avaliacao": 4.1
+  },
+  {
+    "id": 22,
+    "nome": "Terminal de Direção",
+    "marca": "Cofap",
+    "categoria": "Direcao",
+    "preco": 566.9,
+    "descricao": "Terminal de Direção de alta qualidade para reposição automotiva.",
+    "imagem": "https://exemplo.com/imagens/produto_22.jpg",
+    "estoque": 32,
+    "compatibilidade": [
+      "Fiat Uno 2012-2020",
+      "Hyundai HB20 2014-2020"
+    ],
+    "codigo_peca": "SKU-1022",
+    "especificacoes_tecnicas": {
+      "material": "Aço e componentes de alta resistência",
+      "peso": "1.5 kg",
+      "dimensoes": "30 x 20 x 10 cm"
+    },
+    "garantia": "12 meses",
+    "avaliacao": 4.2
+  },
+  {
+    "id": 23,
+    "nome": "Pivô de Suspensão",
+    "marca": "Nakata",
+    "categoria": "Suspensao",
+    "preco": 590.4,
+    "descricao": "Pivô de Suspensão de alta qualidade para reposição automotiva.",
+    "imagem": "https://exemplo.com/imagens/produto_23.jpg",
+    "estoque": 33,
+    "compatibilidade": [
+      "Volkswagen Gol G6 2013-2016",
+      "Chevrolet Onix 2015-2019"
+    ],
+    "codigo_peca": "SKU-1023",
+    "especificacoes_tecnicas": {
+      "material": "Aço e componentes de alta resistência",
+      "peso": "1.5 kg",
+      "dimensoes": "30 x 20 x 10 cm"
+    },
+    "garantia": "12 meses",
+    "avaliacao": 4.3
+  },
+  {
+    "id": 24,
+    "nome": "Junta Homocinética",
+    "marca": "Mahle",
+    "categoria": "Transmissao",
+    "preco": 613.9,
+    "descricao": "Junta Homocinética de alta qualidade para reposição automotiva.",
+    "imagem": "https://exemplo.com/imagens/produto_24.jpg",
+    "estoque": 34,
+    "compatibilidade": [
+      "Fiat Uno 2012-2020",
+      "Hyundai HB20 2014-2020"
+    ],
+    "codigo_peca": "SKU-1024",
+    "especificacoes_tecnicas": {
+      "material": "Aço e componentes de alta resistência",
+      "peso": "1.5 kg",
+      "dimensoes": "30 x 20 x 10 cm"
+    },
+    "garantia": "12 meses",
+    "avaliacao": 4.4
+  },
+  {
+    "id": 25,
+    "nome": "Farol Dianteiro",
+    "marca": "Mann",
+    "categoria": "Iluminacao",
+    "preco": 637.4,
+    "descricao": "Farol Dianteiro de alta qualidade para reposição automotiva.",
+    "imagem": "https://exemplo.com/imagens/produto_25.jpg",
+    "estoque": 35,
+    "compatibilidade": [
+      "Volkswagen Gol G6 2013-2016",
+      "Chevrolet Onix 2015-2019"
+    ],
+    "codigo_peca": "SKU-1025",
+    "especificacoes_tecnicas": {
+      "material": "Aço e componentes de alta resistência",
+      "peso": "1.5 kg",
+      "dimensoes": "30 x 20 x 10 cm"
+    },
+    "garantia": "12 meses",
+    "avaliacao": 4.5
+  },
+  {
+    "id": 26,
+    "nome": "Lanterna Traseira",
+    "marca": "NGK",
+    "categoria": "Iluminacao",
+    "preco": 660.9,
+    "descricao": "Lanterna Traseira de alta qualidade para reposição automotiva.",
+    "imagem": "https://exemplo.com/imagens/produto_26.jpg",
+    "estoque": 36,
+    "compatibilidade": [
+      "Fiat Uno 2012-2020",
+      "Hyundai HB20 2014-2020"
+    ],
+    "codigo_peca": "SKU-1026",
+    "especificacoes_tecnicas": {
+      "material": "Aço e componentes de alta resistência",
+      "peso": "1.5 kg",
+      "dimensoes": "30 x 20 x 10 cm"
+    },
+    "garantia": "12 meses",
+    "avaliacao": 4.6
+  },
+  {
+    "id": 27,
+    "nome": "Retrovisor Elétrico",
+    "marca": "SKF",
+    "categoria": "Carroceria",
+    "preco": 684.4,
+    "descricao": "Retrovisor Elétrico de alta qualidade para reposição automotiva.",
+    "imagem": "https://exemplo.com/imagens/produto_27.jpg",
+    "estoque": 37,
+    "compatibilidade": [
+      "Volkswagen Gol G6 2013-2016",
+      "Chevrolet Onix 2015-2019"
+    ],
+    "codigo_peca": "SKU-1027",
+    "especificacoes_tecnicas": {
+      "material": "Aço e componentes de alta resistência",
+      "peso": "1.5 kg",
+      "dimensoes": "30 x 20 x 10 cm"
+    },
+    "garantia": "12 meses",
+    "avaliacao": 4.7
+  },
+  {
+    "id": 28,
+    "nome": "Palheta Limpador",
+    "marca": "Valeo",
+    "categoria": "Acessorios",
+    "preco": 707.9,
+    "descricao": "Palheta Limpador de alta qualidade para reposição automotiva.",
+    "imagem": "https://exemplo.com/imagens/produto_28.jpg",
+    "estoque": 38,
+    "compatibilidade": [
+      "Fiat Uno 2012-2020",
+      "Hyundai HB20 2014-2020"
+    ],
+    "codigo_peca": "SKU-1028",
+    "especificacoes_tecnicas": {
+      "material": "Aço e componentes de alta resistência",
+      "peso": "1.5 kg",
+      "dimensoes": "30 x 20 x 10 cm"
+    },
+    "garantia": "12 meses",
+    "avaliacao": 4.8
+  },
+  {
+    "id": 29,
+    "nome": "Sensor ABS",
+    "marca": "Monroe",
+    "categoria": "Eletronica",
+    "preco": 731.4,
+    "descricao": "Sensor ABS de alta qualidade para reposição automotiva.",
+    "imagem": "https://exemplo.com/imagens/produto_29.jpg",
+    "estoque": 39,
+    "compatibilidade": [
+      "Volkswagen Gol G6 2013-2016",
+      "Chevrolet Onix 2015-2019"
+    ],
+    "codigo_peca": "SKU-1029",
+    "especificacoes_tecnicas": {
+      "material": "Aço e componentes de alta resistência",
+      "peso": "1.5 kg",
+      "dimensoes": "30 x 20 x 10 cm"
+    },
+    "garantia": "12 meses",
+    "avaliacao": 4.9
+  },
+  {
+    "id": 30,
+    "nome": "Bomba de Combustível",
+    "marca": "TRW",
+    "categoria": "Combustivel",
+    "preco": 754.9,
+    "descricao": "Bomba de Combustível de alta qualidade para reposição automotiva.",
+    "imagem": "https://exemplo.com/imagens/produto_30.jpg",
+    "estoque": 40,
+    "compatibilidade": [
+      "Fiat Uno 2012-2020",
+      "Hyundai HB20 2014-2020"
+    ],
+    "codigo_peca": "SKU-1030",
+    "especificacoes_tecnicas": {
+      "material": "Aço e componentes de alta resistência",
+      "peso": "1.5 kg",
+      "dimensoes": "30 x 20 x 10 cm"
+    },
+    "garantia": "12 meses",
+    "avaliacao": 4.0
+  }
+]
