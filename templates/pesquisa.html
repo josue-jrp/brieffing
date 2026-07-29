@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>
+        Resultado da Pesquisa | GreasePeças
+    </title>
+
+    <!-- CSS DA HOME -->
+    <link
+        rel="stylesheet"
+        href="/static/css/style.css"
+    >
+
+    <!-- CSS DA PESQUISA -->
+    <link
+        rel="stylesheet"
+        href="/static/css/pesquisa.css"
+    >
+
+    <!-- Font Awesome -->
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    >
+
+    <!-- Fontes -->
+    <link
+        rel="preconnect"
+        href="https://fonts.googleapis.com"
+    >
+
+    <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin
+    >
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700;800;900&family=Roboto+Mono:wght@400;500;600;700&family=Titillium+Web:wght@400;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+</head>
+
+<body>
+
+
+<!-- ===================================================== -->
+<!-- BARRA SUPERIOR -->
+<!-- ===================================================== -->
+
+<div class="top-bar">
+
+    <div class="container top-content">
+
+        <div class="top-left">
+
+            <span>
+
+                <i class="fa-solid fa-phone"></i>
+
+                (11) 3344-5566
+
+            </span>
+
+            <span>
+
+                <i class="fa-regular fa-clock"></i>
+
+                Seg–Sex 08h–18h
+
+            </span>
+
+        </div>
+
+        <div class="top-right">
+
+            <span>
+
+                <i class="fa-solid fa-truck-fast"></i>
+
+                Frete grátis acima de R$299
+
+            </span>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<!-- ===================================================== -->
+<!-- HEADER -->
+<!-- ===================================================== -->
+
+<header class="header">
+
+    <div class="container header-content">
+
+        <!-- Logo -->
+
+        <a
+            href="/"
+            class="logo"
+        >
+
+            <div class="logo-icon">
+
+                <span>AP</span>
+
+                <i class="fa-solid fa-car-side"></i>
+
+            </div>
+
+            <div class="logo-text">
+
+                <strong>
+
+                    GREASE<span>PEÇAS</span>
+
+                </strong>
+
+                <small>
+
+                    auto-peças
+
+                </small>
+
+            </div>
+
+        </a>
+
+
+        <!-- Campo de Pesquisa -->
+
+        <form
+            action="/pesquisa"
+            method="GET"
+            class="search-box"
+        >
+
+            <input
+
+                type="search"
+
+                name="q"
+
+                placeholder="Buscar peças, marca ou modelo..."
+
+                value="{{ query }}"
+
+                autocomplete="off"
+
+            >
+
+            <button type="submit">
+
+                <i class="fa-solid fa-magnifying-glass"></i>
+
+            </button>
+
+        </form>
+
+
+        <!-- Ações -->
+
+        <div class="header-actions">
+
+            <button class="header-action">
+
+                <i class="fa-regular fa-user"></i>
+
+                <span>MINHA CONTA</span>
+
+            </button>
+
+            <button class="header-action cart-button">
+
+                <div class="cart-icon">
+
+                    <i class="fa-solid fa-cart-shopping"></i>
+
+                    <b>
+
+                        {{ carrinho|default(0) }}
+
+                    </b>
+
+                </div>
+
+                <span>CARRINHO</span>
+
+            </button>
+
+        </div>
+
+    </div>
+
+</header>
+
+
+<!-- ===================================================== -->
+<!-- MENU -->
+<!-- ===================================================== -->
+
+<nav class="navigation">
+
+    <div class="container navigation-content">
+
+        <ul class="menu">
+
+            <li>
+
+                <a href="/categoria/freios">
+
+                    FREIOS
+
+                </a>
+
+            </li>
+
+            <li>
+
+                <a href="/categoria/motor">
+
+                    MOTOR
+
+                </a>
+
+            </li>
+
+            <li>
+
+                <a href="/categoria/suspensao">
+
+                    SUSPENSÃO
+
+                </a>
+
+            </li>
+
+            <li>
+
+                <a href="/categoria/eletrica">
+
+                    ELÉTRICA
+
+                </a>
+
+            </li>
+
+            <li>
+
+                <a href="/categoria/filtros">
+
+                    FILTROS
+
+                </a>
+
+            </li>
+
+        </ul>
+
+    </div>
+
+</nav>
+
+
+<!-- ===================================================== -->
+<!-- BREADCRUMB -->
+<!-- ===================================================== -->
+
+<section class="breadcrumb-section">
+
+    <div class="container">
+
+        <nav class="breadcrumb">
+
+            <a href="/">
+
+                Home
+
+            </a>
+
+            <i class="fa-solid fa-angle-right"></i>
+
+            <span>
+
+                Pesquisa
+
+            </span>
+
+            <i class="fa-solid fa-angle-right"></i>
+
+            <strong>
+
+                "{{ query }}"
+
+            </strong>
+
+        </nav>
+
+    </div>
+
+</section>
+
+
+<!-- ===================================================== -->
+<!-- CABEÇALHO DA PESQUISA -->
+<!-- ===================================================== -->
+
+<section class="search-header">
+
+    <div class="container">
+
+        <span class="search-tag">
+
+            RESULTADOS DA PESQUISA
+
+        </span>
+
+        <h1>
+
+            {{ query }}
+
+        </h1>
+
+        <p>
+
+            Encontramos
+
+            <strong>
+
+                {{ quantidade }}
+
+            </strong>
+
+            produtos relacionados à sua pesquisa.
+
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- ===================================================== -->
+<!-- ÁREA PRINCIPAL -->
+<!-- ===================================================== -->
+
+<main class="search-page">
+
+    <div class="container search-layout">
+
+        <!--
+            Parte 2 começa aqui.
+            Aqui entrarão:
+
+            - Sidebar
+            - Ordenação
+            - Grid dos produtos
+            - Paginação
+        -->
+        <!-- ===================================================== -->
+        <!-- SIDEBAR -->
+        <!-- ===================================================== -->
+
+        <aside class="search-sidebar">
+
+            <div class="filter-box">
+
+                <h3>
+                    <i class="fa-solid fa-filter"></i>
+                    FILTROS
+                </h3>
+
+            </div>
+
+
+            <div class="filter-group">
+
+                <h4>Categorias</h4>
+
+                <label>
+                    <input type="checkbox">
+                    Freios
+                </label>
+
+                <label>
+                    <input type="checkbox">
+                    Motor
+                </label>
+
+                <label>
+                    <input type="checkbox">
+                    Suspensão
+                </label>
+
+                <label>
+                    <input type="checkbox">
+                    Elétrica
+                </label>
+
+                <label>
+                    <input type="checkbox">
+                    Filtros
+                </label>
+
+            </div>
+
+
+            <div class="filter-group">
+
+                <h4>Preço</h4>
+
+                <input
+                    type="range"
+                    min="0"
+                    max="3000"
+                    value="3000"
+                >
+
+                <span>Até R$ 3.000</span>
+
+            </div>
+
+
+            <div class="filter-group">
+
+                <h4>Disponibilidade</h4>
+
+                <label>
+
+                    <input type="checkbox">
+
+                    Em estoque
+
+                </label>
+
+            </div>
+
+        </aside>
+
+
+        <!-- ===================================================== -->
+        <!-- CONTEÚDO -->
+        <!-- ===================================================== -->
+
+        <section class="results-content">
+
+            <div class="results-toolbar">
+
+                <div>
+
+                    <strong>
+
+                        {{ quantidade }}
+
+                    </strong>
+
+                    produtos encontrados
+
+                </div>
+
+
+                <select id="ordenacao">
+
+                    <option>
+
+                        Relevância
+
+                    </option>
+
+                    <option>
+
+                        Menor preço
+
+                    </option>
+
+                    <option>
+
+                        Maior preço
+
+                    </option>
+
+                    <option>
+
+                        Nome A-Z
+
+                    </option>
+
+                </select>
+
+            </div>
+
+
+
+            <!-- ================================================ -->
+            <!-- GRID -->
+            <!-- ================================================ -->
+
+            <div class="products-grid">
+
+
+                {% if produtos %}
+
+
+                {% for produto in produtos %}
+
+                <article class="product-card">
+
+                    <div class="product-image">
+
+                        <img
+                            src="{{ produto.imagem }}"
+                            alt="{{ produto.nome }}"
+                            loading="lazy"
+                        >
+
+                        <span class="stock-badge">
+
+                            {% if produto.estoque > 0 %}
+
+                                Em estoque
+
+                            {% else %}
+
+                                Indisponível
+
+                            {% endif %}
+
+                        </span>
+
+                    </div>
+
+
+                    <div class="product-body">
+
+                        <span class="product-category">
+
+                            {{ produto.categoria }}
+
+                        </span>
+
+                        <h3>
+
+                            {{ produto.nome }}
+
+                        </h3>
+
+                        <p class="product-brand">
+
+                            {{ produto.marca }}
+
+                        </p>
+
+                        <div class="stars">
+
+                            {% for i in range(produto.avaliacao|int) %}
+
+                                <i class="fa-solid fa-star"></i>
+
+                            {% endfor %}
+
+                        </div>
+
+                        <p class="product-description">
+
+                            {{ produto.descricao }}
+
+                        </p>
+
+                        <div class="product-info">
+
+                            <span>
+
+                                <strong>Código:</strong>
+
+                                {{ produto.codigo_peca }}
+
+                            </span>
+
+                            <span>
+
+                                <strong>Garantia:</strong>
+
+                                {{ produto.garantia }}
+
+                            </span>
+
+                        </div>
+
+                        <div class="product-price">
+
+                            R$ {{ "%.2f"|format(produto.preco) }}
+
+                        </div>
+
+                        <button
+                            class="button button-primary add-cart"
+                            data-id="{{ produto.id }}"
+                        >
+
+                            Ver detalhes
+
+                        </button>
+
+                    </div>
+
+                </article>
+
+                {% endfor %}
+
+
+
+                {% else %}
+
+
+                <div class="empty-results">
+
+                    <i class="fa-solid fa-magnifying-glass"></i>
+
+                    <h2>
+
+                        Nenhum produto encontrado
+
+                    </h2>
+
+                    <p>
+
+                        Não encontramos resultados para
+
+                        <strong>
+
+                            "{{ query }}"
+
+                        </strong>
+
+                    </p>
+
+                    <a
+                        href="/"
+                        class="button button-primary"
+                    >
+
+                        Voltar para a Home
+
+                    </a>
+
+                </div>
+
+                {% endif %}
+
+            </div>
+
+
+
+            <!-- ================================================ -->
+            <!-- PAGINAÇÃO -->
+            <!-- ================================================ -->
+
+            <nav class="pagination">
+
+                <button>
+
+                    <i class="fa-solid fa-angle-left"></i>
+
+                </button>
+
+                <button class="active">
+
+                    1
+
+                </button>
+
+                <button>
+
+                    2
+
+                </button>
+
+                <button>
+
+                    3
+
+                </button>
+
+                <button>
+
+                    4
+
+                </button>
+
+                <button>
+
+                    <i class="fa-solid fa-angle-right"></i>
+
+                </button>
+
+            </nav>
+
+        </section>
+
+    </div>
+
+</main>
+
+
+
+<script src="/static/js/pesquisa.js"></script>
+
+</body>
+
+</html>
