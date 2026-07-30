@@ -521,17 +521,15 @@
 
                     <div class="product-image">
 
-                        <img
-                            src="{{ produto.imagem }}"
-                            alt="{{ produto.nome }}"
-                            loading="lazy"
-                        >
+                        
 
                         <span class="stock-badge">
 
                             {% if produto.estoque > 0 %}
-
-                                Em estoque
+                                <img
+                                src="{{ produto.imagem }}"
+                                alt="{{ produto.nome }}"
+                                loading="lazy">
 
                             {% else %}
 

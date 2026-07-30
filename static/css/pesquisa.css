@@ -464,15 +464,19 @@ IMAGEM
 
 .product-image{
 
-    height:240px;
+    position:relative;
+
+    width:100%;
+
+    aspect-ratio:1 / 1;
+
+    background:white;
 
     display:flex;
 
     justify-content:center;
 
     align-items:center;
-
-    background:#111;
 
     overflow:hidden;
 
@@ -481,9 +485,11 @@ IMAGEM
 
 .product-image img{
 
-    width:85%;
+    width:80%;
 
-    transition:.45s;
+    height:80%;
+
+    object-fit:contain;
 
 }
 
@@ -491,6 +497,30 @@ IMAGEM
 .product-card:hover img{
 
     transform:scale(1.08);
+
+}
+
+.stock-badge{
+
+    position:absolute;
+
+    top:12px;
+
+    right:12px;
+
+    padding:6px 12px;
+
+    border-radius:20px;
+
+    background:#28a745;
+
+    color:#fff;
+
+    font-size:12px;
+
+    font-weight:bold;
+
+    z-index:2;
 
 }
 
