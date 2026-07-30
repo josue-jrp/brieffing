@@ -1,8 +1,19 @@
-from fastapi import APIRouter
+from fastapi import APIRouter, Request
 import json
+from fastapi.templating import Jinja2Templates
+from fastapi.staticfiles import StaticFiles
 
 
 router = APIRouter()
+
+# Pasta dos arquivos estáticos
+router.mount("/static", StaticFiles(directory="static"), name="static")
+
+# Pasta dos templates
+templates = Jinja2Templates(directory="templates")
+
+
+
 
 def ler_json_produtos(categoria=False):
     '''
@@ -28,7 +39,7 @@ def ler_json_produtos(categoria=False):
 
 
 @router.get('/categoria/{categoria}')
-async def categoria(categoria: str):
+async def categoria(request: Request, categoria: str):
     
     resultado = ler_json_produtos(categoria=categoria)
 
@@ -38,8 +49,15 @@ async def categoria(categoria: str):
         }
     )
 
-    return {"resultados": resultado,
+    return templates.TemplateResponse(
+        request= request,
+        name= "pesquisa.html",
+        context= {
+            "query":categoria,
+            "resultados": resultado,
             "qtd_resultados":len(resultado),
             "quantidade": len(resultado),
-            "categorias": categorias
+            "categorias": categorias,
             }
+    )
+
