@@ -512,26 +512,24 @@
             <div class="products-grid">
 
 
-                {% if produtos %}
+                {% if resultados %}
 
 
-                {% for produto in produtos %}
+                {% for produto in resultados %}
 
                 <article class="product-card">
 
                     <div class="product-image">
 
-                        <img
-                            src="{{ produto.imagem }}"
-                            alt="{{ produto.nome }}"
-                            loading="lazy"
-                        >
+                        
 
                         <span class="stock-badge">
 
                             {% if produto.estoque > 0 %}
-
-                                Em estoque
+                                <img
+                                src="{{ produto.imagem }}"
+                                alt="{{ produto.nome }}"
+                                loading="lazy">
 
                             {% else %}
 
